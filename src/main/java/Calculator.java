@@ -1,0 +1,20 @@
+/*
+ * Copyright 2015-2021 the original author or authors.
+ *
+ * All rights reserved. This program and the accompanying materials are
+ * made available under the terms of the Eclipse Public License v2.0 which
+ * accompanies this distribution and is available at
+ *
+ * http://www.eclipse.org/legal/epl-v20.html
+ */
+
+
+public class Calculator {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+}
+//CODECOV_TOKEN='2fedca27-3f2f-4772-8f63-4d75b217c4f7'
+

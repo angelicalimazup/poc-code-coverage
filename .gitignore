@@ -1,6 +1,11 @@
 # Compiled class file
 *.class
-
+# Default ignored files
+/shelf/
+/workspace.xml
+/target
+*.DS_Store
+.idea/
 # Log file
 *.log
 
