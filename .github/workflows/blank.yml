@@ -34,7 +34,7 @@ jobs:
           mvn test
           mvn clean verify
       - name: Tests coverage
-          uses: codecov/codecov-action@v2
+      - uses: codecov/codecov-action@v2
           with:
             token: ${{ secrets.CODECOV_TOKEN }}
             file: ./target/site/jacoco/jacoco.xml
